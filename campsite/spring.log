@@ -1,0 +1,526 @@
+2023-02-24 00:14:08.470  INFO 9332 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Starting CampsiteApplication using Java 17.0.5 on INLEN8520075788 with PID 9332 (C:\Users\ALHARIKA\git\repository4\Campsite\target\classes started by alharika in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 00:14:08.480  INFO 9332 --- [restartedMain] com.capg.campsite.CampsiteApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 00:14:08.539  INFO 9332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-24 00:14:08.539  INFO 9332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-24 00:14:09.308  INFO 9332 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 00:14:09.382  INFO 9332 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+2023-02-24 00:14:10.064  INFO 9332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-24 00:14:10.079  INFO 9332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24 00:14:10.080  INFO 9332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-02-24 00:14:10.181  INFO 9332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24 00:14:10.182  INFO 9332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1642 ms
+2023-02-24 00:14:10.408  INFO 9332 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 00:14:10.474  INFO 9332 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 00:14:10.657  INFO 9332 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 00:14:10.778  INFO 9332 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 00:14:10.960  INFO 9332 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 00:14:10.986  INFO 9332 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 00:14:11.669  INFO 9332 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 00:14:11.677  INFO 9332 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 00:14:12.197  WARN 9332 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 00:14:12.356  INFO 9332 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 00:14:12.486  INFO 9332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-24 00:14:12.692  INFO 9332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-24 00:14:12.693  INFO 9332 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 00:14:12.717  INFO 9332 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 00:14:12.743  INFO 9332 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 00:14:12.906  INFO 9332 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Started CampsiteApplication in 4.78 seconds (JVM running for 5.298)
+2023-02-24 09:47:17.266  INFO 6736 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Starting CampsiteApplication using Java 17.0.5 on INLEN8520075788 with PID 6736 (C:\Users\ALHARIKA\git\repository4\Campsite\target\classes started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 09:47:17.268  INFO 6736 --- [restartedMain] com.capg.campsite.CampsiteApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 09:47:17.324  INFO 6736 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-24 09:47:17.325  INFO 6736 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-24 09:47:18.401  INFO 6736 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 09:47:18.471  INFO 6736 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 3 JPA repository interfaces.
+2023-02-24 09:47:19.278  INFO 6736 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-24 09:47:19.296  INFO 6736 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24 09:47:19.297  INFO 6736 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-02-24 09:47:19.402  INFO 6736 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24 09:47:19.403  INFO 6736 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2075 ms
+2023-02-24 09:47:19.645  INFO 6736 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 09:47:19.717  INFO 6736 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 09:47:19.920  INFO 6736 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 09:47:20.017  INFO 6736 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 09:47:20.289  INFO 6736 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 09:47:20.314  INFO 6736 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 09:47:21.015  INFO 6736 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 09:47:21.022  INFO 6736 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 09:47:21.631  WARN 6736 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 09:47:21.813  INFO 6736 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 09:47:21.972  INFO 6736 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-24 09:47:22.190  INFO 6736 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-24 09:47:22.192  INFO 6736 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 09:47:22.218  INFO 6736 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 09:47:22.251  INFO 6736 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 09:47:22.420  INFO 6736 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Started CampsiteApplication in 5.558 seconds (JVM running for 6.224)
+2023-02-24 09:49:41.469  INFO 15836 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Starting CampsiteApplication using Java 17.0.5 on INLEN8520075788 with PID 15836 (C:\Users\ALHARIKA\git\repository4\Campsite\target\classes started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 09:49:41.471  INFO 15836 --- [restartedMain] com.capg.campsite.CampsiteApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 09:49:41.552  INFO 15836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-24 09:49:41.553  INFO 15836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-24 09:49:42.562  INFO 15836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 09:49:42.655  INFO 15836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 3 JPA repository interfaces.
+2023-02-24 09:49:43.534  INFO 15836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-24 09:49:43.552  INFO 15836 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24 09:49:43.552  INFO 15836 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-02-24 09:49:43.673  INFO 15836 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24 09:49:43.673  INFO 15836 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2113 ms
+2023-02-24 09:49:43.933  INFO 15836 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 09:49:44.018  INFO 15836 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 09:49:44.233  INFO 15836 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 09:49:44.380  INFO 15836 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 09:49:44.549  INFO 15836 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 09:49:44.571  INFO 15836 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 09:49:45.285  INFO 15836 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 09:49:45.292  INFO 15836 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 09:49:45.970  WARN 15836 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 09:49:46.172  INFO 15836 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 09:49:46.352  INFO 15836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-24 09:49:46.614  INFO 15836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-24 09:49:46.617  INFO 15836 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 09:49:46.638  INFO 15836 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 09:49:46.670  INFO 15836 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 09:49:46.888  INFO 15836 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Started CampsiteApplication in 5.832 seconds (JVM running for 6.42)
+2023-02-24 09:50:17.433  INFO 18052 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Starting CampsiteApplication using Java 17.0.5 on INLEN8520075788 with PID 18052 (C:\Users\ALHARIKA\git\repository4\Campsite\target\classes started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 09:50:17.435  INFO 18052 --- [restartedMain] com.capg.campsite.CampsiteApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 09:50:17.519  INFO 18052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-24 09:50:17.519  INFO 18052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-24 09:50:18.476  INFO 18052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 09:50:18.557  INFO 18052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 3 JPA repository interfaces.
+2023-02-24 09:50:19.440  INFO 18052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-24 09:50:19.457  INFO 18052 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24 09:50:19.457  INFO 18052 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-02-24 09:50:19.581  INFO 18052 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24 09:50:19.582  INFO 18052 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2061 ms
+2023-02-24 09:50:19.841  INFO 18052 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 09:50:19.913  INFO 18052 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 09:50:20.123  INFO 18052 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 09:50:20.216  INFO 18052 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 09:50:20.381  INFO 18052 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 09:50:20.400  INFO 18052 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 09:50:21.315  INFO 18052 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 09:50:21.325  INFO 18052 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 09:50:22.066  WARN 18052 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 09:50:22.265  INFO 18052 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 09:50:22.418  INFO 18052 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-24 09:50:22.669  INFO 18052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-24 09:50:22.670  INFO 18052 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 09:50:22.696  INFO 18052 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 09:50:22.726  INFO 18052 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 09:50:22.929  INFO 18052 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Started CampsiteApplication in 5.939 seconds (JVM running for 6.521)
+2023-02-24 09:50:34.572  INFO 12524 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Starting CampsiteApplication using Java 17.0.5 on INLEN8520075788 with PID 12524 (C:\Users\ALHARIKA\git\repository4\Campsite\target\classes started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 09:50:34.573  INFO 12524 --- [restartedMain] com.capg.campsite.CampsiteApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 09:50:34.660  INFO 12524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-24 09:50:34.661  INFO 12524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-24 09:50:35.629  INFO 12524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 09:50:35.712  INFO 12524 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+2023-02-24 09:50:36.639  INFO 12524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-24 09:50:36.657  INFO 12524 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24 09:50:36.659  INFO 12524 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-02-24 09:50:36.801  INFO 12524 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24 09:50:36.802  INFO 12524 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2136 ms
+2023-02-24 09:50:37.092  INFO 12524 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 09:50:37.173  INFO 12524 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 09:50:37.516  INFO 12524 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 09:50:37.707  INFO 12524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 09:50:37.963  INFO 12524 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 09:50:37.986  INFO 12524 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 09:50:38.722  INFO 12524 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 09:50:38.743  INFO 12524 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 09:50:39.516  WARN 12524 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 09:50:39.690  INFO 12524 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 09:50:39.850  INFO 12524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-24 09:50:40.117  INFO 12524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-24 09:50:40.118  INFO 12524 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 09:50:40.144  INFO 12524 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 09:50:40.187  INFO 12524 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 09:50:40.393  INFO 12524 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Started CampsiteApplication in 6.256 seconds (JVM running for 6.844)
+2023-02-24 09:53:07.674  INFO 3088 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Starting CampsiteApplication using Java 17.0.5 on INLEN8520075788 with PID 3088 (C:\Users\ALHARIKA\git\repository4\Campsite\target\classes started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 09:53:07.676  INFO 3088 --- [restartedMain] com.capg.campsite.CampsiteApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 09:53:07.759  INFO 3088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-24 09:53:07.760  INFO 3088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-24 09:53:09.026  INFO 3088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 09:53:09.139  INFO 3088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 3 JPA repository interfaces.
+2023-02-24 09:53:10.141  INFO 3088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-24 09:53:10.157  INFO 3088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24 09:53:10.158  INFO 3088 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-02-24 09:53:10.287  INFO 3088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24 09:53:10.290  INFO 3088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2529 ms
+2023-02-24 09:53:10.559  INFO 3088 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 09:53:10.628  INFO 3088 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 09:53:10.891  INFO 3088 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 09:53:11.010  INFO 3088 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 09:53:11.192  INFO 3088 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 09:53:11.207  INFO 3088 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 09:53:11.970  INFO 3088 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 09:53:11.977  INFO 3088 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 09:53:12.683  WARN 3088 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 09:53:12.886  INFO 3088 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 09:53:13.050  INFO 3088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-24 09:53:13.281  INFO 3088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-24 09:53:13.282  INFO 3088 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 09:53:13.311  INFO 3088 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 09:53:13.341  INFO 3088 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 09:53:13.525  INFO 3088 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Started CampsiteApplication in 6.415 seconds (JVM running for 7.058)
+2023-02-24 09:56:13.834  INFO 10528 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Starting CampsiteApplication using Java 17.0.5 on INLEN8520075788 with PID 10528 (C:\Users\ALHARIKA\git\repository4\Campsite\target\classes started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 09:56:13.836  INFO 10528 --- [restartedMain] com.capg.campsite.CampsiteApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 09:56:13.922  INFO 10528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-24 09:56:13.925  INFO 10528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-24 09:56:15.073  INFO 10528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 09:56:15.147  INFO 10528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 3 JPA repository interfaces.
+2023-02-24 09:56:16.147  INFO 10528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-24 09:56:16.168  INFO 10528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24 09:56:16.170  INFO 10528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-02-24 09:56:16.320  INFO 10528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24 09:56:16.321  INFO 10528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2393 ms
+2023-02-24 09:56:16.643  INFO 10528 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 09:56:16.703  INFO 10528 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 09:56:16.874  INFO 10528 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 09:56:16.979  INFO 10528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 09:56:17.242  INFO 10528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 09:56:17.258  INFO 10528 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 09:56:17.947  INFO 10528 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 09:56:17.958  INFO 10528 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 09:56:18.580  WARN 10528 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 09:56:18.753  INFO 10528 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 09:56:18.905  INFO 10528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-24 09:56:19.140  INFO 10528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-24 09:56:19.142  INFO 10528 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 09:56:19.169  INFO 10528 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 09:56:19.203  INFO 10528 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 09:56:19.408  INFO 10528 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Started CampsiteApplication in 6.078 seconds (JVM running for 6.696)
+2023-02-24 10:03:40.502  INFO 15256 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Starting CampsiteApplication using Java 17.0.5 on INLEN8520075788 with PID 15256 (C:\Users\ALHARIKA\git\repository4\Campsite\target\classes started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 10:03:40.503  INFO 15256 --- [restartedMain] com.capg.campsite.CampsiteApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 10:03:40.572  INFO 15256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-24 10:03:40.573  INFO 15256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-24 10:03:41.432  INFO 15256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 10:03:41.493  INFO 15256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 3 JPA repository interfaces.
+2023-02-24 10:03:42.301  INFO 15256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-24 10:03:42.316  INFO 15256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24 10:03:42.317  INFO 15256 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-02-24 10:03:42.426  INFO 15256 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24 10:03:42.427  INFO 15256 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1853 ms
+2023-02-24 10:03:42.634  INFO 15256 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 10:03:42.689  INFO 15256 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 10:03:42.855  INFO 15256 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 10:03:42.949  INFO 15256 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 10:03:43.082  INFO 15256 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 10:03:43.095  INFO 15256 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 10:03:43.729  INFO 15256 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 10:03:43.739  INFO 15256 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 10:03:44.314  WARN 15256 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 10:03:44.466  INFO 15256 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 10:03:44.601  INFO 15256 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-24 10:03:44.805  INFO 15256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-24 10:03:44.806  INFO 15256 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 10:03:44.827  INFO 15256 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 10:03:44.852  INFO 15256 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 10:03:45.004  INFO 15256 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Started CampsiteApplication in 4.913 seconds (JVM running for 5.514)
+2023-02-24 10:04:46.645  INFO 14112 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Starting CampsiteApplication using Java 17.0.5 on INLEN8520075788 with PID 14112 (C:\Users\ALHARIKA\git\repository4\Campsite\target\classes started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 10:04:46.647  INFO 14112 --- [restartedMain] com.capg.campsite.CampsiteApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 10:04:46.718  INFO 14112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-24 10:04:46.719  INFO 14112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-24 10:04:47.484  INFO 14112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 10:04:47.547  INFO 14112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+2023-02-24 10:04:48.303  INFO 14112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-24 10:04:48.315  INFO 14112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24 10:04:48.316  INFO 14112 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-02-24 10:04:48.430  INFO 14112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24 10:04:48.430  INFO 14112 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1711 ms
+2023-02-24 10:04:48.687  INFO 14112 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 10:04:48.757  INFO 14112 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 10:04:48.972  INFO 14112 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 10:04:49.113  INFO 14112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 10:04:49.256  INFO 14112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 10:04:49.269  INFO 14112 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 10:04:49.964  INFO 14112 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 10:04:49.972  INFO 14112 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 10:04:50.558  WARN 14112 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 10:04:50.764  INFO 14112 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 10:04:50.979  INFO 14112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-24 10:04:51.257  INFO 14112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-24 10:04:51.260  INFO 14112 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 10:04:51.284  INFO 14112 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 10:04:51.310  INFO 14112 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 10:04:51.480  INFO 14112 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Started CampsiteApplication in 5.207 seconds (JVM running for 5.75)
+2023-02-24 10:14:20.602  INFO 14708 --- [main] c.capg.campsite.service.UserServiceTest  : Starting UserServiceTest using Java 17.0.5 on INLEN8520075788 with PID 14708 (started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 10:14:20.605  INFO 14708 --- [main] c.capg.campsite.service.UserServiceTest  : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 10:14:21.463  INFO 14708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 10:14:21.559  INFO 14708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 3 JPA repository interfaces.
+2023-02-24 10:14:22.180  INFO 14708 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 10:14:22.243  INFO 14708 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 10:14:22.404  INFO 14708 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 10:14:22.595  INFO 14708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 10:14:22.742  INFO 14708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 10:14:22.758  INFO 14708 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 10:14:23.465  INFO 14708 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 10:14:23.473  INFO 14708 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 10:14:24.143  WARN 14708 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 10:14:24.476  INFO 14708 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 10:14:25.132  INFO 14708 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 10:14:25.152  INFO 14708 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 10:14:25.182  INFO 14708 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 10:14:25.357  INFO 14708 --- [main] c.capg.campsite.service.UserServiceTest  : Started UserServiceTest in 5.089 seconds (JVM running for 6.158)
+2023-02-24 10:14:25.565  INFO 14708 --- [main] c.capg.campsite.service.UserServiceImpl  : add user
+2023-02-24 10:14:25.742  INFO 14708 --- [main] c.capg.campsite.service.UserServiceImpl  : get all users
+2023-02-24 10:14:25.772  INFO 14708 --- [main] c.capg.campsite.service.UserServiceImpl  : update user
+2023-02-24 10:14:25.793  INFO 14708 --- [main] c.capg.campsite.service.UserServiceImpl  : delete user
+2023-02-24 10:14:25.813  INFO 14708 --- [main] c.capg.campsite.service.UserServiceImpl  : get user by Id
+2023-02-24 10:14:25.825  INFO 14708 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.capg.CampsiteApplicationTests], using SpringBootContextLoader
+2023-02-24 10:14:25.826  INFO 14708 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.capg.CampsiteApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-24 10:14:25.826  INFO 14708 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.capg.CampsiteApplicationTests]: CampsiteApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-24 10:14:25.887  INFO 14708 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 10:14:25.890  INFO 14708 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-24 10:14:25.902  INFO 14708 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-24 13:05:44.831  INFO 18616 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Starting CampsiteApplication using Java 17.0.5 on INLEN8520075788 with PID 18616 (C:\Users\ALHARIKA\git\repository4\Campsite\target\classes started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 13:05:44.833  INFO 18616 --- [restartedMain] com.capg.campsite.CampsiteApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 13:05:44.897  INFO 18616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-24 13:05:44.898  INFO 18616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-24 13:05:45.597  INFO 18616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 13:05:45.658  INFO 18616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2023-02-24 13:05:46.326  INFO 18616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-24 13:05:46.338  INFO 18616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24 13:05:46.339  INFO 18616 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-02-24 13:05:46.450  INFO 18616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24 13:05:46.451  INFO 18616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1553 ms
+2023-02-24 13:05:46.638  INFO 18616 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 13:05:46.687  INFO 18616 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 13:05:46.844  INFO 18616 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 13:05:46.945  INFO 18616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 13:05:47.068  INFO 18616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 13:05:47.081  INFO 18616 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 13:05:47.652  INFO 18616 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 13:05:47.660  INFO 18616 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 13:05:48.179  WARN 18616 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 13:05:48.317  INFO 18616 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 13:05:48.447  INFO 18616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-24 13:05:48.641  INFO 18616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-24 13:05:48.642  INFO 18616 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 13:05:48.661  INFO 18616 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 13:05:48.686  INFO 18616 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 13:05:48.835  INFO 18616 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Started CampsiteApplication in 4.37 seconds (JVM running for 4.928)
+2023-02-24 13:06:00.287  INFO 18616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 23 class path changes (0 additions, 23 deletions, 0 modifications)
+2023-02-24 13:06:00.302  INFO 18616 --- [Thread-4] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-24 13:06:00.313  INFO 18616 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 13:06:00.317  INFO 18616 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-24 13:06:00.326  INFO 18616 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-24 13:06:05.298  INFO 18616 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Starting CampsiteApplication using Java 17.0.5 on INLEN8520075788 with PID 18616 (C:\Users\ALHARIKA\git\repository4\Campsite\target\classes started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 13:06:05.299  INFO 18616 --- [restartedMain] com.capg.campsite.CampsiteApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 13:06:05.520  INFO 18616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 13:06:05.521  INFO 18616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2023-02-24 13:06:05.588  INFO 18616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-24 13:06:05.589  INFO 18616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24 13:06:05.590  INFO 18616 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-02-24 13:06:05.609  INFO 18616 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-24 13:06:05.609  INFO 18616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 307 ms
+2023-02-24 13:06:05.639  INFO 18616 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 13:06:05.646  INFO 18616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-24 13:06:05.708  INFO 18616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-24 13:06:05.709  INFO 18616 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 13:06:05.731  INFO 18616 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 13:06:05.732  INFO 18616 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 13:06:05.797  WARN 18616 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 13:06:05.830  INFO 18616 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 13:06:05.884  INFO 18616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-24 13:06:05.941  INFO 18616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-24 13:06:05.942  INFO 18616 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 13:06:05.943  INFO 18616 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 13:06:05.949  INFO 18616 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 13:06:05.958  INFO 18616 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Started CampsiteApplication in 0.689 seconds (JVM running for 22.049)
+2023-02-24 13:06:05.960  INFO 18616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-24 13:06:56.367  INFO 17156 --- [main] c.capg.campsite.service.UserServiceTest  : Starting UserServiceTest using Java 17.0.5 on INLEN8520075788 with PID 17156 (started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 13:06:56.369  INFO 17156 --- [main] c.capg.campsite.service.UserServiceTest  : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 13:06:57.055  INFO 17156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 13:06:57.131  INFO 17156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 3 JPA repository interfaces.
+2023-02-24 13:06:57.750  INFO 17156 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 13:06:57.818  INFO 17156 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 13:06:57.978  INFO 17156 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 13:06:58.164  INFO 17156 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 13:06:58.303  INFO 17156 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 13:06:58.316  INFO 17156 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 13:06:59.010  INFO 17156 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 13:06:59.020  INFO 17156 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 13:06:59.611  WARN 17156 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 13:06:59.888  INFO 17156 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 13:07:00.511  INFO 17156 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 13:07:00.527  INFO 17156 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 13:07:00.557  INFO 17156 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 13:07:00.711  INFO 17156 --- [main] c.capg.campsite.service.UserServiceTest  : Started UserServiceTest in 4.645 seconds (JVM running for 5.569)
+2023-02-24 13:07:00.916  INFO 17156 --- [main] c.capg.campsite.service.UserServiceImpl  : add user
+2023-02-24 13:07:01.071  INFO 17156 --- [main] c.capg.campsite.service.UserServiceImpl  : get all users
+2023-02-24 13:07:01.098  INFO 17156 --- [main] c.capg.campsite.service.UserServiceImpl  : update user
+2023-02-24 13:07:01.121  INFO 17156 --- [main] c.capg.campsite.service.UserServiceImpl  : delete user
+2023-02-24 13:07:01.139  INFO 17156 --- [main] c.capg.campsite.service.UserServiceImpl  : get user by Id
+2023-02-24 13:07:01.154  INFO 17156 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.capg.CampsiteApplicationTests], using SpringBootContextLoader
+2023-02-24 13:07:01.155  INFO 17156 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.capg.CampsiteApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-24 13:07:01.155  INFO 17156 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.capg.CampsiteApplicationTests]: CampsiteApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-24 13:07:01.241  INFO 17156 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 13:07:01.245  INFO 17156 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-24 13:07:01.266  INFO 17156 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-24 13:15:13.429  INFO 17312 --- [main] c.capg.campsite.service.UserServiceTest  : Starting UserServiceTest using Java 17.0.5 on INLEN8520075788 with PID 17312 (started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 13:15:13.431  INFO 17312 --- [main] c.capg.campsite.service.UserServiceTest  : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 13:15:14.238  INFO 17312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 13:15:14.321  INFO 17312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 3 JPA repository interfaces.
+2023-02-24 13:15:14.932  INFO 17312 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 13:15:14.982  INFO 17312 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 13:15:15.146  INFO 17312 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 13:15:15.310  INFO 17312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 13:15:15.453  INFO 17312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 13:15:15.470  INFO 17312 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 13:15:16.156  INFO 17312 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 13:15:16.172  INFO 17312 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 13:15:16.972  WARN 17312 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 13:15:17.352  INFO 17312 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 13:15:18.044  INFO 17312 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 13:15:18.064  INFO 17312 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 13:15:18.102  INFO 17312 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 13:15:18.264  INFO 17312 --- [main] c.capg.campsite.service.UserServiceTest  : Started UserServiceTest in 5.177 seconds (JVM running for 6.252)
+2023-02-24 13:15:18.569  INFO 17312 --- [main] c.capg.campsite.service.UserServiceImpl  : add user
+2023-02-24 13:15:18.765  INFO 17312 --- [main] c.capg.campsite.service.UserServiceImpl  : get all users
+2023-02-24 13:15:18.796  INFO 17312 --- [main] c.capg.campsite.service.UserServiceImpl  : update user
+2023-02-24 13:15:18.814  INFO 17312 --- [main] c.capg.campsite.service.UserServiceImpl  : delete user
+2023-02-24 13:15:18.828  INFO 17312 --- [main] c.capg.campsite.service.UserServiceImpl  : get user by Id
+2023-02-24 13:15:18.850  INFO 17312 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 13:15:18.853  INFO 17312 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-24 13:15:18.863  INFO 17312 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-24 14:10:25.676  INFO 5676 --- [main] c.capg.campsite.service.UserServiceTest  : Starting UserServiceTest using Java 17.0.5 on INLEN8520075788 with PID 5676 (started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 14:10:25.678  INFO 5676 --- [main] c.capg.campsite.service.UserServiceTest  : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 14:10:26.655  INFO 5676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 14:10:26.762  INFO 5676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+2023-02-24 14:10:27.500  INFO 5676 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 14:10:27.572  INFO 5676 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 14:10:27.749  INFO 5676 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 14:10:27.935  INFO 5676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 14:10:28.126  INFO 5676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 14:10:28.143  INFO 5676 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 14:10:28.760  INFO 5676 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 14:10:28.771  INFO 5676 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 14:10:29.610  WARN 5676 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 14:10:29.932  INFO 5676 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 14:10:30.629  INFO 5676 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 14:10:30.650  INFO 5676 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 14:10:30.689  INFO 5676 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 14:10:30.886  INFO 5676 --- [main] c.capg.campsite.service.UserServiceTest  : Started UserServiceTest in 5.566 seconds (JVM running for 6.68)
+2023-02-24 14:10:31.193  INFO 5676 --- [main] c.capg.campsite.service.UserServiceImpl  : add user
+2023-02-24 14:10:31.377  INFO 5676 --- [main] c.capg.campsite.service.UserServiceImpl  : get all users
+2023-02-24 14:10:31.405  INFO 5676 --- [main] c.capg.campsite.service.UserServiceImpl  : update user
+2023-02-24 14:10:31.426  INFO 5676 --- [main] c.capg.campsite.service.UserServiceImpl  : delete user
+2023-02-24 14:10:31.445  INFO 5676 --- [main] c.capg.campsite.service.UserServiceImpl  : get user by Id
+2023-02-24 14:10:31.457  INFO 5676 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.capg.CampsiteApplicationTests], using SpringBootContextLoader
+2023-02-24 14:10:31.458  INFO 5676 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.capg.CampsiteApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-24 14:10:31.459  INFO 5676 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.capg.CampsiteApplicationTests]: CampsiteApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-24 14:10:31.518  INFO 5676 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 14:10:31.521  INFO 5676 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-24 14:10:31.530  INFO 5676 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-24 14:26:08.214  INFO 7628 --- [main] c.capg.campsite.service.UserServiceTest  : Starting UserServiceTest using Java 17.0.5 on INLEN8520075788 with PID 7628 (started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 14:26:08.218  INFO 7628 --- [main] c.capg.campsite.service.UserServiceTest  : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 14:26:09.062  INFO 7628 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 14:26:09.147  INFO 7628 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2023-02-24 14:26:09.745  INFO 7628 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 14:26:09.806  INFO 7628 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 14:26:09.970  INFO 7628 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 14:26:10.182  INFO 7628 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 14:26:10.351  INFO 7628 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 14:26:10.368  INFO 7628 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 14:26:11.147  INFO 7628 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 14:26:11.158  INFO 7628 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 14:26:11.830  WARN 7628 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 14:26:12.296  INFO 7628 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 14:26:12.909  INFO 7628 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 14:26:12.935  INFO 7628 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 14:26:12.965  INFO 7628 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 14:26:13.165  INFO 7628 --- [main] c.capg.campsite.service.UserServiceTest  : Started UserServiceTest in 5.244 seconds (JVM running for 6.456)
+2023-02-24 14:26:13.404  INFO 7628 --- [main] c.capg.campsite.service.UserServiceImpl  : add user
+2023-02-24 14:26:13.668  INFO 7628 --- [main] c.capg.campsite.service.UserServiceImpl  : get all users
+2023-02-24 14:26:13.703  INFO 7628 --- [main] c.capg.campsite.service.UserServiceImpl  : update user
+2023-02-24 14:26:13.732  INFO 7628 --- [main] c.capg.campsite.service.UserServiceImpl  : delete user
+2023-02-24 14:26:13.756  INFO 7628 --- [main] c.capg.campsite.service.UserServiceImpl  : get user by Id
+2023-02-24 14:26:13.775  INFO 7628 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.capg.CampsiteApplicationTests], using SpringBootContextLoader
+2023-02-24 14:26:13.776  INFO 7628 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.capg.CampsiteApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-24 14:26:13.776  INFO 7628 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.capg.CampsiteApplicationTests]: CampsiteApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-24 14:26:13.867  INFO 7628 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 14:26:13.872  INFO 7628 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-24 14:26:13.877  INFO 7628 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-24 16:17:22.293  INFO 8060 --- [main] c.capg.campsite.service.UserServiceTest  : Starting UserServiceTest using Java 17.0.5 on INLEN8520075788 with PID 8060 (started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 16:17:22.295  INFO 8060 --- [main] c.capg.campsite.service.UserServiceTest  : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 16:17:23.273  INFO 8060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 16:17:23.365  INFO 8060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 3 JPA repository interfaces.
+2023-02-24 16:17:24.011  INFO 8060 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 16:17:24.080  INFO 8060 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 16:17:24.303  INFO 8060 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 16:17:24.538  INFO 8060 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 16:17:24.692  INFO 8060 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 16:17:24.712  INFO 8060 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 16:17:25.312  INFO 8060 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 16:17:25.321  INFO 8060 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 16:17:26.080  WARN 8060 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 16:17:26.386  INFO 8060 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 16:17:27.018  INFO 8060 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 16:17:27.043  INFO 8060 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 16:17:27.082  INFO 8060 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 16:17:27.313  INFO 8060 --- [main] c.capg.campsite.service.UserServiceTest  : Started UserServiceTest in 5.345 seconds (JVM running for 6.368)
+2023-02-24 16:17:27.555  INFO 8060 --- [main] c.capg.campsite.service.UserServiceImpl  : add user
+2023-02-24 16:17:27.745  INFO 8060 --- [main] c.capg.campsite.service.UserServiceImpl  : get all users
+2023-02-24 16:17:27.771  INFO 8060 --- [main] c.capg.campsite.service.UserServiceImpl  : update user
+2023-02-24 16:17:27.799  INFO 8060 --- [main] c.capg.campsite.service.UserServiceImpl  : delete user
+2023-02-24 16:17:27.821  INFO 8060 --- [main] c.capg.campsite.service.UserServiceImpl  : get user by Id
+2023-02-24 16:17:27.835  INFO 8060 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.capg.CampsiteApplicationTests], using SpringBootContextLoader
+2023-02-24 16:17:27.836  INFO 8060 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.capg.CampsiteApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-24 16:17:27.836  INFO 8060 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.capg.CampsiteApplicationTests]: CampsiteApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-24 16:17:27.917  INFO 8060 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 16:17:27.922  INFO 8060 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-24 16:17:27.932  INFO 8060 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-24 16:38:25.239  INFO 16740 --- [main] c.capg.campsite.service.UserServiceTest  : Starting UserServiceTest using Java 17.0.5 on INLEN8520075788 with PID 16740 (started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 16:38:25.241  INFO 16740 --- [main] c.capg.campsite.service.UserServiceTest  : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 16:38:25.891  INFO 16740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 16:38:25.976  INFO 16740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2023-02-24 16:38:26.552  INFO 16740 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 16:38:26.602  INFO 16740 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 16:38:26.764  INFO 16740 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 16:38:26.944  INFO 16740 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 16:38:27.081  INFO 16740 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 16:38:27.094  INFO 16740 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 16:38:27.676  INFO 16740 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 16:38:27.682  INFO 16740 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 16:38:28.263  WARN 16740 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 16:38:28.523  INFO 16740 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 16:38:29.353  INFO 16740 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 16:38:29.388  INFO 16740 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 16:38:29.419  INFO 16740 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 16:38:29.559  INFO 16740 --- [main] c.capg.campsite.service.UserServiceTest  : Started UserServiceTest in 4.568 seconds (JVM running for 5.356)
+2023-02-24 16:38:29.764  INFO 16740 --- [main] c.capg.campsite.service.UserServiceImpl  : add user
+2023-02-24 16:38:29.902  INFO 16740 --- [main] c.capg.campsite.service.UserServiceImpl  : get all users
+2023-02-24 16:38:29.922  INFO 16740 --- [main] c.capg.campsite.service.UserServiceImpl  : update user
+2023-02-24 16:38:29.938  INFO 16740 --- [main] c.capg.campsite.service.UserServiceImpl  : delete user
+2023-02-24 16:38:29.952  INFO 16740 --- [main] c.capg.campsite.service.UserServiceImpl  : get user by Id
+2023-02-24 16:38:29.963  INFO 16740 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.capg.CampsiteApplicationTests], using SpringBootContextLoader
+2023-02-24 16:38:29.964  INFO 16740 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.capg.CampsiteApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-02-24 16:38:29.964  INFO 16740 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.capg.CampsiteApplicationTests]: CampsiteApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-02-24 16:38:30.010  INFO 16740 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 16:38:30.012  INFO 16740 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-24 16:38:30.022  INFO 16740 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-24 16:39:08.526  INFO 13156 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Starting CampsiteApplication using Java 17.0.5 on INLEN8520075788 with PID 13156 (C:\Users\ALHARIKA\git\repository4\Campsite\target\classes started by ALHARIKA in C:\Users\ALHARIKA\git\repository4\Campsite)
+2023-02-24 16:39:08.527  INFO 13156 --- [restartedMain] com.capg.campsite.CampsiteApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 16:39:08.603  INFO 13156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-24 16:39:08.604  INFO 13156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-24 16:39:09.250  INFO 13156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 16:39:09.305  INFO 13156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 3 JPA repository interfaces.
+2023-02-24 16:39:09.885  INFO 13156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-24 16:39:09.896  INFO 13156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24 16:39:09.896  INFO 13156 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-02-24 16:39:09.976  INFO 13156 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24 16:39:09.977  INFO 13156 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1373 ms
+2023-02-24 16:39:10.174  INFO 13156 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 16:39:10.217  INFO 13156 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-02-24 16:39:10.357  INFO 13156 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 16:39:10.443  INFO 13156 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 16:39:10.657  INFO 13156 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 16:39:10.668  INFO 13156 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 16:39:11.189  INFO 13156 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 16:39:11.194  INFO 13156 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 16:39:11.664  WARN 13156 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 16:39:11.807  INFO 13156 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-24 16:39:11.937  INFO 13156 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-24 16:39:12.129  INFO 13156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-24 16:39:12.130  INFO 13156 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-02-24 16:39:12.146  INFO 13156 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-02-24 16:39:12.165  INFO 13156 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-02-24 16:39:12.296  INFO 13156 --- [restartedMain] com.capg.campsite.CampsiteApplication    : Started CampsiteApplication in 4.13 seconds (JVM running for 4.572)
